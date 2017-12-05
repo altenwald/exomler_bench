@@ -1,17 +1,14 @@
-REBAR=`which rebar`
+REBAR=./rebar3
 
-all: get-deps compile
-
-get-deps:
-	@$(REBAR) get-deps
+all: compile
 
 compile:
-	@$(REBAR) compile
+	$(REBAR) compile
 
 clean:
-	@$(REBAR) clean
+	$(REBAR) clean
 
-bench:
+bench: compile
 	./exomler_bench test_01.xml 1000
 	./exomler_bench test_02.xml 1000
 	./exomler_bench test_03.xml 1000

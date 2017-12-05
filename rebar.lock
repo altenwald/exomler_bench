@@ -1,0 +1,30 @@
+{"1.1.0",
+[{<<"erlsom">>,
+  {git,"https://github.com/willemdj/erlsom.git",
+       {ref,"df4526ce3c50ea27a4d37f4be3582037368f8ce7"}},
+  0},
+ {<<"exml">>,
+  {git,"https://github.com/esl/exml.git",
+       {ref,"662072bf8367c96c4671e4862dc2099ecdd32f17"}},
+  0},
+ {<<"exomler">>,
+  {git,"https://github.com/altenwald/exomler.git",
+       {ref,"7b5a7eaebd6f3cc064bb80e92fc63faf26e3a044"}},
+  0},
+ {<<"fast_xml">>,
+  {git,"https://github.com/processone/fast_xml.git",
+       {ref,"6cfd311c6fa6ed94de7b9bdb255751c26e66094b"}},
+  0},
+ {<<"mochiweb">>,
+  {git,"https://github.com/mochi/mochiweb.git",
+       {ref,"23dc11959affd9b0849c2ac0ff4200c1c82aa80c"}},
+  0},
+ {<<"p1_utils">>,{pkg,<<"p1_utils">>,<<"1.0.10">>},1},
+ {<<"parselib">>,
+  {git,"https://github.com/kostyushkin/parselib.git",
+       {ref,"85d58541403a4ae236eec0fa91150a2e50e1ef96"}},
+  1}]}.
+[
+{pkg_hash,[
+ {<<"p1_utils">>, <<"A6D6927114BAC79CF6468A10824125492034AF7071ADC6ED5EBC4DDB443845D4">>}]}
+].
